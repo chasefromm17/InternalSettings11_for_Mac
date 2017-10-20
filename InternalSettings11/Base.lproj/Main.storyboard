@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13528" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13189.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13528"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -62,11 +62,11 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="824" height="709"/>
+                        <rect key="frame" x="0.0" y="0.0" width="824" height="731"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gf3-Ns-KjZ">
-                                <rect key="frame" x="18" y="310" width="228" height="18"/>
+                                <rect key="frame" x="18" y="332" width="228" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Calendar - Show Debug Menu Bar" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="SCr-qi-ght">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -74,7 +74,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yKb-ov-YCy">
-                                <rect key="frame" x="18" y="290" width="228" height="18"/>
+                                <rect key="frame" x="18" y="312" width="228" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Contacts - Show Debug Menu Bar" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="Pnb-v9-NCf">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -82,7 +82,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7HM-yJ-BJE">
-                                <rect key="frame" x="18" y="185" width="192" height="18"/>
+                                <rect key="frame" x="18" y="207" width="192" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="iOS Simulator - Use CarPlay" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="LyL-CG-D1l">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -90,7 +90,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NWr-cH-vEl">
-                                <rect key="frame" x="18" y="330" width="209" height="18"/>
+                                <rect key="frame" x="18" y="352" width="209" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Safari - Show Debug Menu Bar" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="jZ2-Qd-eaC">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -98,7 +98,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cmh-3m-Iu4">
-                                <rect key="frame" x="18" y="530" width="215" height="18"/>
+                                <rect key="frame" x="18" y="552" width="215" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Finder - Show All Fles &amp; Folders" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="ELo-je-A6P">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -106,7 +106,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wMA-ja-ECm">
-                                <rect key="frame" x="18" y="510" width="215" height="18"/>
+                                <rect key="frame" x="18" y="532" width="215" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Finder - Display File Extensions" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="CA6-ir-flp">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -114,7 +114,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5uf-Mw-q4v">
-                                <rect key="frame" x="18" y="470" width="353" height="18"/>
+                                <rect key="frame" x="18" y="492" width="353" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Maps - Show Fake iPhone Push Buttons in Share Menu" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="Mp1-oj-EGJ">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -122,7 +122,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kqe-JR-Fhd">
-                                <rect key="frame" x="18" y="490" width="238" height="18"/>
+                                <rect key="frame" x="18" y="512" width="238" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Reminders - Show Debug Menu Bar" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="F1H-ci-ncl">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -130,7 +130,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JQT-KA-C7T">
-                                <rect key="frame" x="18" y="450" width="423" height="18"/>
+                                <rect key="frame" x="18" y="472" width="423" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Photos - Stop Automatically Opening After Connecting iOS Device" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="VWZ-na-ZVT">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -138,7 +138,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xcZ-cV-atv">
-                                <rect key="frame" x="18" y="430" width="391" height="18"/>
+                                <rect key="frame" x="18" y="452" width="391" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Systemwide - Enable Dark Mode with Keyboard Shortcut Key" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="ME4-mW-EfA">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -146,7 +146,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iam-rn-NQY">
-                                <rect key="frame" x="18" y="410" width="358" height="18"/>
+                                <rect key="frame" x="18" y="432" width="358" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Notification Center - Disable Banner Display Time-Limit" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="EK8-h1-Pa1">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -154,7 +154,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oVa-J7-z0E">
-                                <rect key="frame" x="18" y="390" width="391" height="18"/>
+                                <rect key="frame" x="18" y="412" width="391" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="iTunes - Disable &quot;Check For Updates&quot; Dialog for iOS Devices" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="u7d-1B-QPe">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -162,7 +162,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E3k-wt-DDs">
-                                <rect key="frame" x="18" y="205" width="263" height="18"/>
+                                <rect key="frame" x="18" y="227" width="263" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="Touch Bar - Enable Touch Bar Simulator" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="WKQ-Xc-qgb">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -170,7 +170,7 @@
                                 </buttonCell>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iKG-Xz-gnh">
-                                <rect key="frame" x="18" y="229" width="228" height="24"/>
+                                <rect key="frame" x="18" y="251" width="228" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Developer Apps Settings Section" id="eDz-oB-esd">
                                     <font key="font" size="15" name="HelveticaNeue"/>
@@ -179,7 +179,7 @@
                                 </textFieldCell>
                             </textField>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fj6-HI-hhJ">
-                                <rect key="frame" x="18" y="165" width="281" height="18"/>
+                                <rect key="frame" x="18" y="187" width="281" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="iOS Simulator - Show Internal Debug Menu" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="GF8-Mp-dzh">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -187,7 +187,7 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0DO-a7-0SA">
-                                <rect key="frame" x="18" y="370" width="360" height="18"/>
+                                <rect key="frame" x="18" y="392" width="360" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="iTunes - Allow .IPCC Installation for Cellular iOS Devices" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="rrq-ET-gIH">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -195,15 +195,15 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YIn-UA-Hlm">
-                                <rect key="frame" x="18" y="350" width="779" height="18"/>
+                                <rect key="frame" x="18" y="372" width="565" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Gatekeeper - Disable Gatekeeper (useful to prevent that &quot;Tweetbot app is damaged&quot; on Mac using pirated Tweetbot for Mac)" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="3Wh-Yu-5Kh">
+                                <buttonCell key="cell" type="check" title="Gatekeeper - Disable Gatekeeper (useful to prevent the &quot;Tweetbot app is damaged&quot; alert)" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="3Wh-Yu-5Kh">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gWB-Fp-s9b">
-                                <rect key="frame" x="18" y="14" width="788" height="17"/>
+                                <rect key="frame" x="18" y="20" width="788" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="(C) 2017 Chase Fromm &amp; Alyssa Nuuk Kuron" id="2cr-tW-8MJ">
                                     <font key="font" metaFont="system"/>
@@ -212,7 +212,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WfK-A1-7V1">
-                                <rect key="frame" x="18" y="554" width="209" height="24"/>
+                                <rect key="frame" x="18" y="576" width="209" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Normal Apps Settings Section" id="Eas-t9-RKp">
                                     <font key="font" size="15" name="HelveticaNeue"/>
@@ -220,16 +220,8 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CZY-5o-Qqd">
-                                <rect key="frame" x="277" y="79" width="271" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Install AppleInternal folder (empty folder)" bezelStyle="regularSquare" imagePosition="left" alignment="center" inset="2" id="nEc-Lo-y5G">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8xy-4r-hFy">
-                                <rect key="frame" x="151" y="609" width="513" height="80"/>
+                                <rect key="frame" x="151" y="631" width="513" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="InternalSettings11" id="uet-3H-0dQ">
                                     <font key="font" metaFont="system" size="67"/>
@@ -238,19 +230,35 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EbG-wa-tKx">
-                                <rect key="frame" x="18" y="39" width="788" height="34"/>
+                                <rect key="frame" x="18" y="45" width="788" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="Hfx-Ya-c9o">
                                     <font key="font" metaFont="system"/>
-                                    <string key="title">Installing the AppleInternal folder is a requirement for using some options (like using fullscreen mode in the iOS Simulator) in InternalSettings11 for macOS.</string>
+                                    <string key="title">** Installing the AppleInternal folder is a requirement for using some options (like using fullscreen mode in the iOS Simulator) in InternalSettings11 for macOS to work properly.</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SfP-Hn-vh1">
-                                <rect key="frame" x="18" y="145" width="254" height="18"/>
+                                <rect key="frame" x="18" y="167" width="254" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="check" title="iOS Simulator - Allow Fullscreen Mode" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="qXz-Oq-Gbg">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCc-ov-mTm">
+                                <rect key="frame" x="18" y="147" width="391" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="iOS Simulator - Use SpringBoard Internal Prototype Settings" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="Bn6-m3-lns">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CZY-5o-Qqd">
+                                <rect key="frame" x="252" y="85" width="320" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="Install AppleInternal folder (empty folder)" bezelStyle="regularSquare" imagePosition="left" alignment="center" inset="2" id="nEc-Lo-y5G">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -260,7 +268,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="247" y="874.5"/>
+            <point key="canvasLocation" x="247" y="885.5"/>
         </scene>
     </scenes>
 </document>
