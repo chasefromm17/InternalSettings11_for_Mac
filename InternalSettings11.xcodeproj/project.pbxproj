@@ -13,6 +13,10 @@
 		189C07501F6DB5EF00632906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C074F1F6DB5EF00632906 /* main.m */; };
 		189C075B1F6DB5EF00632906 /* InternalSettings11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C075A1F6DB5EF00632906 /* InternalSettings11Tests.m */; };
 		189C07661F6DB5EF00632906 /* InternalSettings11UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C07651F6DB5EF00632906 /* InternalSettings11UITests.m */; };
+		18D3D7A61FB0EDD200030A8C /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 18D3D7A51FB0EDD200030A8C /* Contents.json */; };
+		18D3D7A81FB0EE0C00030A8C /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3D7A71FB0EE0B00030A8C /* AppIcon.png */; };
+		18D3D7AA1FB0EE1700030A8C /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 18D3D7A91FB0EE1700030A8C /* Icon.icns */; };
+		18D3D7AC1FB0EE1E00030A8C /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 18D3D7AB1FB0EE1E00030A8C /* AppIcon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		189C07611F6DB5EF00632906 /* InternalSettings11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InternalSettings11UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189C07651F6DB5EF00632906 /* InternalSettings11UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InternalSettings11UITests.m; sourceTree = "<group>"; };
 		189C07671F6DB5F000632906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D3D7A51FB0EDD200030A8C /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents.json; path = Images.xcassets/AppIcon.appiconset/Contents.json; sourceTree = "<group>"; };
+		18D3D7A71FB0EE0B00030A8C /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = SOURCE_ROOT; };
+		18D3D7A91FB0EE1700030A8C /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = ../../Icon.icns; sourceTree = "<group>"; };
+		18D3D7AB1FB0EE1E00030A8C /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AppIcon.icns; path = ../../AppIcon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				189C074E1F6DB5EF00632906 /* Info.plist */,
 				189C074F1F6DB5EF00632906 /* main.m */,
 				189C07511F6DB5EF00632906 /* InternalSettings11.entitlements */,
+				18D3D7A51FB0EDD200030A8C /* Contents.json */,
+				18D3D7AB1FB0EE1E00030A8C /* AppIcon.icns */,
+				18D3D7A91FB0EE1700030A8C /* Icon.icns */,
+				18D3D7A71FB0EE0B00030A8C /* AppIcon.png */,
 			);
 			path = InternalSettings11;
 			sourceTree = "<group>";
@@ -234,7 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D3D7AC1FB0EE1E00030A8C /* AppIcon.icns in Resources */,
 				189C074D1F6DB5EF00632906 /* Main.storyboard in Resources */,
+				18D3D7AA1FB0EE1700030A8C /* Icon.icns in Resources */,
+				18D3D7A61FB0EDD200030A8C /* Contents.json in Resources */,
+				18D3D7A81FB0EE0C00030A8C /* AppIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +437,7 @@
 				DEVELOPMENT_TEAM = 2MH88S2NYW;
 				INFOPLIST_FILE = InternalSettings11/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.internalsettingsproject.InternalSettings11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -438,7 +454,7 @@
 				DEVELOPMENT_TEAM = 2MH88S2NYW;
 				INFOPLIST_FILE = InternalSettings11/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.internalsettingsproject.InternalSettings11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13528" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13528"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13770"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -114,9 +114,9 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5uf-Mw-q4v">
-                                <rect key="frame" x="18" y="492" width="353" height="18"/>
+                                <rect key="frame" x="18" y="492" width="395" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Maps - Show Fake iPhone Push Buttons in Share Menu" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="Mp1-oj-EGJ">
+                                <buttonCell key="cell" type="check" title="Maps - Show Fake iPhone &amp; iPad Push Buttons in Share Menu" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="Mp1-oj-EGJ">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -130,9 +130,9 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JQT-KA-C7T">
-                                <rect key="frame" x="18" y="472" width="423" height="18"/>
+                                <rect key="frame" x="18" y="472" width="533" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Photos - Stop Automatically Opening After Connecting iOS Device" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="VWZ-na-ZVT">
+                                <buttonCell key="cell" type="check" title="Photos - Stop from Automatically Opening and Syncing After Connecting iOS Device" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="VWZ-na-ZVT">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -170,9 +170,9 @@
                                 </buttonCell>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iKG-Xz-gnh">
-                                <rect key="frame" x="18" y="251" width="228" height="24"/>
+                                <rect key="frame" x="18" y="251" width="238" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Developer Apps Settings Section" id="eDz-oB-esd">
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Developers' Apps Settings Section" id="eDz-oB-esd">
                                     <font key="font" size="15" name="HelveticaNeue"/>
                                     <color key="textColor" red="0.16506272382199097" green="0.28200495162911327" blue="0.65066386010362698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -187,9 +187,9 @@
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0DO-a7-0SA">
-                                <rect key="frame" x="18" y="392" width="360" height="18"/>
+                                <rect key="frame" x="18" y="392" width="369" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="iTunes - Allow .IPCC Installation for Cellular iOS Devices" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="rrq-ET-gIH">
+                                <buttonCell key="cell" type="check" title="iTunes - Enable .IPCC Installation for Cellular iOS Devices" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="rrq-ET-gIH">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -212,9 +212,9 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WfK-A1-7V1">
-                                <rect key="frame" x="18" y="576" width="209" height="24"/>
+                                <rect key="frame" x="18" y="576" width="201" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Normal Apps Settings Section" id="Eas-t9-RKp">
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Users' Apps Settings Section" id="Eas-t9-RKp">
                                     <font key="font" size="15" name="HelveticaNeue"/>
                                     <color key="textColor" red="0.16506272380000001" green="0.2820049516" blue="0.65066386009999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
