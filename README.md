@@ -1,5 +1,5 @@
 # InternalSettings11 for Mac
-**Based off of InternalSettings11 for iOS 7-11.x**
+**Based off of InternalSettings11 for iOS 7.x-10.x**
 
 **Description** With InternalSettings11 for Mac, you can adjust and unhide settings that you could not do normally on your Mac. You can enable debug menus for certain applications, and use some hidden settings for preinstalled apps like Reminders, Maps, Photos, iTunes, Mac App Store, Safari, Calendar, Contacts, and developer apps like Xcode, iOS Simulator, and even systemwide areas/places like Finder, Notification Center, etc.
 
